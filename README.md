@@ -45,3 +45,8 @@ func checkPrice(provinceName string, productName string) (int, error) {
 }
 
 ```
+
+## Signature of func
+```go
+func checkPrice(string, string) returns (int, error)
+```
