@@ -1,4 +1,4 @@
-# task-4
+# Task 4 - Product Table
 
 Provide a solution to the following problem:
 Premise: An SQL table has 4 columns: product, region, province, price. The region column can be either National or Provincial. If region is Provincial then province is filled (e.g. Ontario), otherwise it's blank. Each product has one national price, but may have zero or one provincial price. If a product has no provincial price, the national price is used. For example, "kale" may have a provincial price of $5.99 in Ontario and a national price of $4.50, with no other prices. If a user wanted to find the price of kale in Quebec they would get $4.50.
