@@ -6,6 +6,7 @@ Premise: An SQL table has 4 columns: product, region, province, price. The regio
 Challenge: Create a method, with a name and signature, that finds the price of a particular product in a particular province. Add the logic in pseudo-code to the body of the method. Be sure to include input parameters, a return statement, and any validation or exception handling that you deem necessary. You can represent the data as an array of objects.
 
 <hr><br>
+
 **Solution:**
 Let us assume a REST type environment with data from SQL being received in the form of JSON.
 This would imply, the following:
